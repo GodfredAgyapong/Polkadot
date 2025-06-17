@@ -1,0 +1,119 @@
+body {
+    background-image: url("./Images/Desktop\ -\ 3.png");
+    max-width : 90%;
+    margin : auto;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(ClashGrotesk-Variable.ttf);
+  }
+
+#headr {
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+    margin-top : 15px;
+}
+
+#logo {
+    margin-right : 8px;
+}
+
+#navbar {
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 400;
+    display : flex;
+    gap : 30px;
+}
+
+#navbar a{
+    text-decoration : none;
+    color : #33141F;
+}
+
+#navbar a:hover {
+    color : #FF2670;
+}
+
+#navbar a::after {
+    content: '▼';
+    font-size: 10px;
+    margin-left: 5px;
+    opacity: 0.6;
+}
+
+#btn {
+    font-family : 'inter';
+    font-size : 15px;
+    border : 1px solid #FF2670;
+    color : #FF2670;
+    padding : 6px 10px 6px 10px;
+    background-color : #FAF5F7;
+    cursor : pointer;
+}
+
+#hero {
+    padding-top : 50px;
+    text-align : center;
+}
+
+#heading-1 {
+    font-family: myFirstFont;
+    color : #33141F;
+    font-size : 45px;
+    font-weight : 700;
+}
+
+#para-1 {
+    font-family : 'inter';
+    font-size : 18px;
+    color : #73505C;
+    margin-top : -10px;
+}
+
+#jc {
+    display : flex;
+    justify-content : center;
+    gap : 20px;
+    margin-top : -15px;
+}
+
+#para-2 {
+    font-family : 'inter';
+    font-size : 15px;
+    color : white;
+    background-color : #FF2670;
+    border : none;
+    padding : 7px 10px 6px 10px;
+}
+
+#para-3 {
+    font-family : 'inter';
+    font-size : 15px;
+    color : #FF2670;
+    border : 1px solid #FF2670;
+    padding : 6px 10px 6px 10px;
+}
+
+#avatars {
+    display : flex;
+    justify-content : center;
+    margin-top : 10px;
+}
+
+#avatar-1, #avatar-2, #avatar-3, #avatar-4, #avatar-5, #avatar-6 {
+    border-radius : 50%;
+    width : 25px;
+    height : 25px;
+}
+
+#para-4 {
+    font-family : 'inter';
+    font-size : 15px;
+    color : #73505C;
+    margin-top : 3px;
+    margin-left : 5px;
+}
+
