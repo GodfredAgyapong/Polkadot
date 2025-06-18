@@ -2,6 +2,7 @@ body {
     background-image: url("./Images/Desktop\ -\ 3.png");
     max-width : 90%;
     margin : auto;
+    height : 100vh;
 }
 
 @font-face {
@@ -14,10 +15,6 @@ body {
     justify-content: space-between;
     align-items : center;
     margin-top : 15px;
-}
-
-#logo {
-    margin-right : 8px;
 }
 
 #navbar {
@@ -117,3 +114,91 @@ body {
     margin-left : 5px;
 }
 
+@media (max-width : 820px) {
+    body {
+        max-width: 90%;
+        margin : auto;
+    }
+
+    #btn {
+        font-size : 14px;
+        padding : 5px 8px 5px 8px;
+    }
+
+    #navbar {
+        font-size : 14px;
+        gap : 20px;
+    }
+
+    #heading-1 {
+        font-size : 40px;
+    }
+
+    #para-1 {
+        font-size : 17px;
+    }
+
+    #para-2 {
+        font-size : 14px;
+    }
+
+    #para-3 {
+        font-size : 14px;
+    }
+
+    #avatar-1, #avatar-2, #avatar-3, #avatar-4, #avatar-5, #avatar-6 {
+        border-radius : 50%;
+        width : 20px;
+        height : 20px;
+    }
+
+    #para-4 {
+        font-size : 14px;
+    }
+
+    #sec-img {
+        width : 754px;
+        height : 356px;
+        max-width : 90%;
+    }
+}
+
+@media (max-width : 700px) {
+    body {
+        max-width: 95%;
+        margin : auto;
+    }
+}
+
+@media (max-width : 600px) {
+    #btn {
+        font-size : 13px;
+        padding : 4px 6px 4px 6px;
+    }
+
+    #navbar {
+        font-size : 13px;
+        gap : 15px;
+    }
+
+    #heading-1 {
+        font-size : 35px;
+    }
+
+    #para-1 {
+        font-size : 16px;
+    }
+
+    #para-2 {
+        font-size : 13px;
+    }
+
+    #para-3 {
+        font-size : 13px;
+    }
+    
+    #para-4 {
+        font-size : 13px;
+    }
+
+}
