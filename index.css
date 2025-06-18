@@ -51,6 +51,11 @@ body {
     cursor : pointer;
 }
 
+#btn:hover {
+    background-color : #FF2670;
+    color : white;
+}
+
 #hero {
     padding-top : 50px;
     text-align : center;
@@ -84,6 +89,12 @@ body {
     background-color : #FF2670;
     border : none;
     padding : 7px 10px 6px 10px;
+    cursor : pointer;
+}
+
+#para-2:hover{
+    color : white;
+    background-color : #33141F;
 }
 
 #para-3 {
@@ -92,6 +103,7 @@ body {
     color : #FF2670;
     border : 1px solid #FF2670;
     padding : 6px 10px 6px 10px;
+    cursor : pointer;
 }
 
 #avatars {
